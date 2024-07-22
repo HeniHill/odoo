@@ -68,7 +68,7 @@
                         <page string="General Information" name="general_information">
                             <group>
                                 <group name="group_general">
-                                    <field name="active" invisible="1"/>
+                                    <field name="active" />
                                     <field name="detailed_type"/>
                                     <field name="product_tooltip" string="" class="fst-italic text-muted" invisible="type == 'service' and not sale_ok"/>
                                     <field name="uom_id" groups="uom.group_uom" options="{'no_create': True}"/>
