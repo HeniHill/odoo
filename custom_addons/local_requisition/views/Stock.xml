@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<odoo>
+<data>
+
+        <menuitem id="stock_request_isste" 
+        name="Issue"
+        parent="stock.menu_stock_transfers"
+        action="local_requisition_model_action" />
+     
+   
+
+</data>
+</odoo>

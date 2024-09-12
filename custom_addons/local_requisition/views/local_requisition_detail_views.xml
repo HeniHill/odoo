@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<odoo><data>
+
+<record id="local_requisition_detail_model_action" model="ir.actions.act_window">
+    <field name="name">Property Type</field>
+    <field name="res_model">local.requisition.detail</field>
+    <field name="view_mode">tree,form</field>
+   
+</record>
+
+<record id="local_requisition_detail_tree_view" model="ir.ui.view">
+    <field name="name">local_requisition_detail_tree_view</field>
+    <field name="model">local.requisition.detail</field>
+    <field name="arch" type="xml">
+      <tree editable="bottom">
+   
+        <field name="name"/>
+        <field name="product_id"/>
+        <field name="unit_of_measure"/>
+        <field name="qty"/>
+        <field name="unit_cost"/>
+
+        
+      </tree>
+    </field>
+</record>
+
+
+
+
+
+
+
+</data></odoo>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<odoo>
+<data>
+<menuitem id="estate_menu_root" 
+          name="Stock Requisition"
+          web_icon="static/description/icon.png" >
+
+     <menuitem id="test_first_level_menu" name="Operations">
+        <menuitem id="estate_model_menu_action" name="Request" action="local_requisition_model_action"/>
+     </menuitem>
+
+    
+   
+
+    
+     <menuitem id="estate_type_first_level_menu" name="Setup">
+        <menuitem id="estate_type_model_menu_action" name="Types" action="local_requisition_detail_model_action"/>
+        <menuitem id="estate_setup_model_menu_action" name="Setups" action="local_requisition_detail_model_action"/>
+     </menuitem>
+   
+
+</menuitem>
+</data>
+</odoo>
